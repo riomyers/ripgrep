@@ -6,6 +6,7 @@ extern crate encoding_rs;
 extern crate encoding_rs_io;
 extern crate globset;
 extern crate grep;
+extern crate grep2;
 extern crate ignore;
 #[macro_use]
 extern crate lazy_static;
@@ -47,6 +48,7 @@ mod preprocessor;
 mod logger;
 mod pathutil;
 mod printer;
+mod search;
 mod search_buffer;
 mod search_stream;
 mod unescape;
